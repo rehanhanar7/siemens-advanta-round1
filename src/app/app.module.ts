@@ -10,7 +10,7 @@ import { PowerPipe } from './powerpipe.pipe';
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [AppComponent, HelloComponent, PowerPipe],
-  entryComponents: [PowerPipe],
+  entryComponents: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
